@@ -1,5 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,200;1,100&family=Roboto:ital,wght@0,300;0,400;0,500;1,100;1,500&display=swap');
 /*Her stoppet vi i forelesningen*/
+
+/*Tester remote*/
+/*En endring*/
 /**/
 *{
     box-sizing: border-box;
@@ -29,9 +32,14 @@ nav{
 
 .nav-menu{
     display: flex;
+<<<<<<< HEAD
     gap: 1.5rem;
 }
 
+=======
+    gap: 1rem;
+}
+>>>>>>> upstream/main
 .nav-menu li{
     list-style: none;
 }
@@ -59,6 +67,7 @@ main{
     grid-column-end: 3;
     grid-row-end: 3;
 
+<<<<<<< HEAD
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
@@ -79,6 +88,17 @@ main{
 
 }
 */
+=======
+    display:flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap:1rem;
+
+}
+
+
+
+>>>>>>> upstream/main
 aside{
     /*grid-area: aside;*/
     grid-column-start: 3;
@@ -96,6 +116,10 @@ footer{
 
 
 main article{
+<<<<<<< HEAD
+=======
+    /*endret vidde bredde fra hva vi gjorde 05.08*/
+>>>>>>> upstream/main
     flex-basis: 200px;
     flex-grow: 1;
     border: 1px solid #d9d9d9;
