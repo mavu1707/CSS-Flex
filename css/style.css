@@ -33,14 +33,8 @@ nav{
 
 .nav-menu{
     display: flex;
-<<<<<<< HEAD
-    gap: 1.5rem;
-}
-
-=======
     gap: 1rem;
 }
->>>>>>> upstream/main
 .nav-menu li{
     list-style: none;
 }
@@ -68,28 +62,6 @@ main{
     grid-column-end: 3;
     grid-row-end: 3;
 
-<<<<<<< HEAD
-    display: flex;
-    justify-content: space-between;
-    flex-wrap: wrap;
-    gap:1rem;
-}
-/*
-#article-1{
-    /*
-    grid-column-start: 1;
-    grid-row-start: 1;
-    grid-column-end: 2;
-    grid-row-end: 2;
-
-    /*kunne og skrevet: 
-    grid-area: col-1;
-    
-    grid-area: 1/1/2/2;
-
-}
-*/
-=======
     display:flex;
     justify-content: space-between;
     flex-wrap: wrap;
@@ -99,7 +71,6 @@ main{
 
 
 
->>>>>>> upstream/main
 aside{
     /*grid-area: aside;*/
     grid-column-start: 3;
@@ -117,10 +88,7 @@ footer{
 
 
 main article{
-<<<<<<< HEAD
-=======
     /*endret vidde bredde fra hva vi gjorde 05.08*/
->>>>>>> upstream/main
     flex-basis: 200px;
     flex-grow: 1;
     border: 1px solid #d9d9d9;
